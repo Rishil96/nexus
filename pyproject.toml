@@ -7,7 +7,12 @@ authors = [
     { name = "Rishil Ramesh", email = "rishil.ramesh@outlook.com" }
 ]
 requires-python = ">=3.13"
-dependencies = []
+dependencies = [
+    "langchain-openai>=1.6.2",
+    "langgraph>=1.2.11",
+    "python-dotenv>=1.2.3",
+    "streamlit>=1.63.0",
+]
 
 [project.scripts]
 nexus = "nexus:main"
