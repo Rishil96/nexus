@@ -10,7 +10,7 @@ requires-python = ">=3.13"
 dependencies = [
     "langchain-openai>=1.6.2",
     "langgraph>=1.2.11",
-    "python-dotenv>=1.2.3",
+    "pydantic-settings>=2.15.0",
     "streamlit>=1.63.0",
 ]
 
